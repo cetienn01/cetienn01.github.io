@@ -1,1 +1,134 @@
-theme: jekyll-theme-cayman
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: Chris Etienne # Name of website
+email: cetienn01@gmail.com
+name: "http://chrisetienne.com"
+description: >- # this means to ignore newlines until "baseurl:" # Short description of your site
+  Welcome to Chris Etienne's mysterious world 
+author:
+  name: Chris Etienne
+  email: 'cetienn01gmail.com'
+baseurl: "/chrisetienne-official" # the subpath of your site, e.g. /blog
+url: "http://chrisetienne.com"
+baseurlknitr: "/"
+about:
+  I can be found at the bench, conducting experiments,
+  as well as in the computation side, performing bioinformatics analyses 
+avatar: /static/images/me.jpg
+
+# --- Background colour/image options --- #
+# Personalize the colors in your website. Colour values can be any valid CSS colour
+background-image: '/Website2019/science-stock-image.png/'
+image:
+  background: '/Website2019/science-stock-image.png/'
+navbar-col: "#F5F5F5"
+navbar-text-col: "#404040"
+navbar-children-col: "#F5F5F5"
+page-col: "#FFFFFF"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#F5F5F5"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
+
+# Alternatively, the navbar, footer, and page background can be set to use background images
+# instead of colour
+navbar-img: '/Desktop/Website2019/science-stock-image.png/'
+#footer-img: "/img/bgimage.png"
+#page-img: "/img/bgimage.png"
+
+# --- Navigation bar options --- #
+# List of links in the navigation bar
+navbar-links:
+  About Me: "aboutme"
+  Resources: "resources"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM 
+  syntax_highlighter: rouge
+  auto_ids: true
+  hard_wrap: false
+highlighter: rouge
+paginate: 5
+paginate_path: "/posts/page:num/"
+
+theme: jekyll-theme-clean-blog
+plugins:
+  - jekyll-feed
+  - jekyll-avatar
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-sitemap
+  - jekyll-coffeescript
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# The path structure for blog posts.
+permalink: /blog/:year/:month/:day/:title.html
+
+# Number of news stories on the front page.
+front_page_news: 3
+
+#Social Profiles / Links
+share:
+  twitter_username: cetienn01
+  github_username:  cetienn01
+  linkedin_username: christian-etienne-12a258a3
+
+# Social Media
+twitter: true       
+linkedin: true
+github:
+  repo: https://github.com/cetienn01/cetienn01.github.io
+
+# Base pathname for links.
+base: '//chrisetienne.com'
+base: ''
+github_button_location_page_bottom: true
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Navigation bar links.
+navigation:
+    - title: Home
+      link: /
+    - tile: About Me
+      link: /aboutme.html
+    - title: Research
+      link: /research/
+    - title: Publications
+      link: /publications.html
+    - title: Code
+      link: /code.html
+    - title: Projects
+      link: /projects.html
+    - title: CV
+      link: /cv/cv.pdf
+
