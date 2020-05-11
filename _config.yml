@@ -32,9 +32,9 @@ avatar: /static/images/me.jpg
 
 # --- Background colour/image options --- #
 # Personalize the colors in your website. Colour values can be any valid CSS colour
-background-image: '/Website2019/science-stock-image.png/'
+background-image: '/science-stock-image.png/'
 image:
-  background: '/Website2019/science-stock-image.png/'
+  background: '/science-stock-image.png/'
 navbar-col: "#F5F5F5"
 navbar-text-col: "#404040"
 navbar-children-col: "#F5F5F5"
@@ -47,7 +47,7 @@ footer-link-col: "#404040"
 
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
-navbar-img: '/Desktop/Website2019/science-stock-image.png/'
+navbar-img: '/Desktop/science-stock-image.png/'
 #footer-img: "/img/bgimage.png"
 #page-img: "/img/bgimage.png"
 
@@ -108,7 +108,7 @@ github:
   repo: https://github.com/cetienn01/cetienn01.github.io
 
 # Base pathname for links.
-base: '//chrisetienne.com'
+base: '/chrisetienne.com'
 base: ''
 github_button_location_page_bottom: true
 
