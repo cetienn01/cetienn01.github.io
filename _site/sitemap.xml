@@ -13,6 +13,12 @@
 <loc>http://localhost:4000/chrisetienne-official/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/chrisetienne-official/post</loc>
+<loc>http://localhost:4000/chrisetienne-official/new_page</loc>
+</url>
+<url>
+<loc>http://localhost:4000/chrisetienne-official/posts/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/chrisetienne-official/projects/</loc>
 </url>
 </urlset>

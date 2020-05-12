@@ -18,7 +18,7 @@ title: Chris Etienne # Name of website
 email: cetienn01@gmail.com
 name: "http://chrisetienne.com"
 description: >- # this means to ignore newlines until "baseurl:" # Short description of your site
-  Welcome to Chris Etienne's mysterious world 
+  Welcome to Chris Etienne's mysterious world
 author:
   name: Chris Etienne
   email: 'cetienn01gmail.com'
@@ -27,7 +27,7 @@ url: "http://chrisetienne.com"
 baseurlknitr: "/"
 about:
   I can be found at the bench, conducting experiments,
-  as well as in the computation side, performing bioinformatics analyses 
+  as well as in the computation side, performing bioinformatics analyses
 avatar: /static/images/me.jpg
 
 # --- Background colour/image options --- #
@@ -60,7 +60,7 @@ navbar-links:
 # Build settings
 markdown: kramdown
 kramdown:
-  input: GFM 
+  input: GFM
   syntax_highlighter: rouge
   auto_ids: true
   hard_wrap: false
@@ -80,14 +80,14 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # The path structure for blog posts.
 permalink: /blog/:year/:month/:day/:title.html
@@ -102,7 +102,7 @@ share:
   linkedin_username: christian-etienne-12a258a3
 
 # Social Media
-twitter: true       
+twitter: true
 linkedin: true
 github:
   repo: https://github.com/cetienn01/cetienn01.github.io
@@ -131,4 +131,3 @@ navigation:
       link: /projects.html
     - title: CV
       link: /cv/cv.pdf
-
