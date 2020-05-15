@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.8.5"
+gem "jekyll"
 #gem "github-pages"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
@@ -19,7 +19,10 @@ gem "guard"
 gem "guard-livereload"
 gem "jekyll-gist"
 gem "jekyll-sitemap"
-gem 'jekyll-coffeescript'
+gem "jekyll-coffeescript"
+gem "jekyll-data", "~> 1.1"
+gem "jemoji", "~> 0.11"
+
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
