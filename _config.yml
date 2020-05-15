@@ -1,12 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -22,12 +13,14 @@ description: >- # this means to ignore newlines until "baseurl:" # Short descrip
 author:
   name: Chris Etienne
   email: 'cetienn01gmail.com'
-baseurl: "/chrisetienne-official" # the subpath of your site, e.g. /blog
+meta_author: Etienne Chris
+baseurl: "/chrisetienne" # the subpath of your site, e.g. /blog
 url: "http://chrisetienne.com"
 baseurlknitr: "/"
 about:
   I can be found at the bench, conducting experiments,
   as well as in the computation side, performing bioinformatics analyses
+skills: "bioinformatics - immuno-oncology - molecular biology"
 avatar: /static/images/me.jpg
 
 # --- Background colour/image options --- #
@@ -91,7 +84,7 @@ exclude:
 
 # The path structure for blog posts.
 permalink: /blog/:year/:month/:day/:title.html
-
+#permalink: pretty
 # Number of news stories on the front page.
 front_page_news: 3
 
@@ -107,6 +100,17 @@ linkedin: true
 github:
   repo: https://github.com/cetienn01/cetienn01.github.io
 
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: http://twitter.com/cetienn01
+  - title: github
+    url: http://github.com/cetienn01
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: 3 Forbes Rd.
+  - line: Lexington, MA 02421
 # Base pathname for links.
 base: '/chrisetienne.com'
 base: ''
@@ -122,7 +126,7 @@ navigation:
     - tile: About Me
       link: /aboutme.html
     - title: Research
-      link: /research/
+      link: /research.html
     - title: Publications
       link: /publications.html
     - title: Code

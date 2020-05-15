@@ -95,8 +95,9 @@ img::-moz-selection {
         padding: 10px 20px;
         color: #fff; }
         #mainNav .navbar-nav > li.nav-item > a:focus, #mainNav .navbar-nav > li.nav-item > a:hover {
-          color: rgba(255, 255, 255, 0.8); } }
-  @media only screen and (min-width: 992px) {
+          color: rgba(232, 62, 140, 0.8);
+          background-color: white; } }
+  @media only screen and (min-width: 992px) and (min-width: 992px) {
     #mainNav {
       -webkit-transition: background-color 0.2s;
       -moz-transition: background-color 0.2s;
@@ -236,6 +237,7 @@ header.masthead {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
+  padding-left: 10px;
   border-bottom: 1px solid #dee2e6; }
   .floating-label-form-group input,
   .floating-label-form-group textarea {
