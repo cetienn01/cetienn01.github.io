@@ -25,6 +25,7 @@
       }
     }
   }
+
   @media only screen and (min-width: 992px) {
     border-bottom: 1px solid transparent;
     background: transparent;
@@ -43,12 +44,13 @@
           color: $white;
           &:focus,
           &:hover {
-            color: fade-out($white, .2);
+            color: fade-out($pink, .2);
+            background-color: white;
           }
         }
       }
     }
-  }
+
   @media only screen and (min-width: 992px) {
     -webkit-transition: background-color 0.2s;
     -moz-transition: background-color 0.2s;
@@ -97,4 +99,5 @@
       transform: translate3d(0, 100%, 0);
     }
   }
+}
 }

@@ -1,4 +1,8 @@
 <!-- Navigation -->
+
+<!-- Load an icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
   <div class="container">
     <a class="navbar-brand" href="{{"/" | relative_url }}">{{ site.title | escape }}</a>
@@ -9,16 +13,22 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="{{"/" | relative_url }}">Home</a>
+          <a class="nav-link active" href="{{"/" | relative_url }}"><i class="fas fa-fw fa-home"></i> Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"/about" | relative_url }}">About</a>
+          <a class="nav-link" href="{{"/about" | relative_url }}"><i class="fas fa-fw fa-address-card"></i> About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{ "/posts" | relative_url }}">Posts</a>
+          <a class="nav-link" href="{{ "/posts" | relative_url }}"><i class="fas fa-fw fa-edit"></i> Posts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{{"/contact" | relative_url }}">Contact</a>
+          <a class="nav-link" href="{{ "/research" | relative_url }}"><i class="fas fa-fw fa-microscope"></i> Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{ "/projects" | relative_url }}"><i class="fas fa-fw fa-briefcase"></i> Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="{{"/contact" | relative_url }}"><i class="fas fa-fw fa-envelope"></i> Contact</a>
         </li>
       </ul>
     </div>

@@ -1,18 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/chrisetienne-official/about/</loc>
+<loc>http://localhost:4000/chrisetienne/about/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/chrisetienne-official/contact</loc>
+<loc>http://localhost:4000/chrisetienne/contact</loc>
 </url>
 <url>
-<loc>http://localhost:4000/chrisetienne-official/posts/</loc>
+<loc>http://localhost:4000/chrisetienne/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/chrisetienne-official/</loc>
+<loc>http://localhost:4000/chrisetienne/posts/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/chrisetienne-official/post</loc>
+<loc>http://localhost:4000/chrisetienne/posts/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/chrisetienne/projects/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/chrisetienne/research/</loc>
 </url>
 </urlset>
