@@ -89,10 +89,10 @@ permalink: /blog/:year/:month/:day/:title.html
 front_page_news: 3
 
 #Social Profiles / Links
-share:
-  twitter_username: cetienn01
-  github_username:  cetienn01
-  linkedin_username: christian-etienne-12a258a3
+# share:
+twitter_username: cetienn01
+github_username:  cetienn01
+linkedin_username: christian-etienne-12a258a3
 
 # Social Media
 twitter: true
