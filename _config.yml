@@ -9,10 +9,8 @@ title: Chris Etienne # Name of website
 email: cetienn01@gmail.com
 name: "http://chrisetienne.com"
 description: >- # this means to ignore newlines until "baseurl:" # Short description of your site
-  Welcome to Chris Etienne's mysterious world
-author:
-  name: Chris Etienne
-  email: 'cetienn01gmail.com'
+  Welcome to my mysterious world
+author: Chris Etienne
 meta_author: Etienne Chris
 baseurl: "/chrisetienne" # the subpath of your site, e.g. /blog
 url: "http://chrisetienne.com"
@@ -91,8 +89,9 @@ front_page_news: 3
 #Social Profiles / Links
 # share:
 twitter_username: cetienn01
+linkedin_username: christian-etienne
 github_username:  cetienn01
-linkedin_username: christian-etienne-12a258a3
+medium_username: cetienn01
 
 # Social Media
 twitter: true
@@ -129,8 +128,6 @@ navigation:
       link: /research.html
     - title: Publications
       link: /publications.html
-    - title: Code
-      link: /code.html
     - title: Projects
       link: /projects.html
     - title: CV
