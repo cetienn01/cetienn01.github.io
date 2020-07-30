@@ -12,8 +12,8 @@ description: >- # this means to ignore newlines until "baseurl:" # Short descrip
   Welcome to my mysterious world
 author: Chris Etienne
 meta_author: Etienne Chris
-baseurl: "/cetienn01.github.io/" # the subpath of your site, e.g. /blog
-url: " "
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "/cetienn01.github.io/"
 baseurlknitr: "/"
 about:
   I can be found at the bench, conducting experiments,
