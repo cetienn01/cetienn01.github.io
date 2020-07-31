@@ -93,18 +93,8 @@ linkedin_username: christian-etienne
 github_username:  cetienn01
 medium_username: cetienn01
 
-# Social Media
-twitter: true
-linkedin: true
-github:
-  repo: https://github.com/cetienn01/cetienn01.github.io
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: twitter
-    url: http://twitter.com/cetienn01
-  - title: github
-    url: http://github.com/cetienn01
 
 # Postal address (add as many lines as necessary)
 address:
